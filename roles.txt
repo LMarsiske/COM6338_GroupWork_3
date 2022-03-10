@@ -1,0 +1,15 @@
+Team Leader/Editor: Kate Liptak
+Coordinated team meetings and designed the logo. Found images, optimized size, and wrote the alt text. Validated code and uploaded site to server via FTP.
+
+***
+This person will compile teammate’s submissions to form a properly coded website. If any code editing needs to be completed, this is the person who will accomplish it. This person will also be responsible for code validation and any required edits. He/She must also make sure the file/folder structure is organized and upload the group’s site to the web on their server via FTP.  This person will turn in the assignment for the group that includes an explanation of each group member’s role for the project. This person will also manage the workflow for the group, either using a tool like Trello or via email. The Team Leader/Editor will also be the first point of contact should the designer or coder(s) get stuck and will assist in troubleshooting.
+
+Designer: Lucas Marsiske
+
+***
+This person will come up with the main design structure of the website which every page will follow. (The first step of creating the website before any pages are coded.)  A mockup of all pages is required, with both mobile and desktop examples. He/She may procure banners/logos/graphics/color choices/etc. from group members to complete this process.  The designer also must decide on the style of CSS-based animated navigation that all pages will use – the group may decide based on work allocation if this will be coded by the designer or an alternate team member (probably the team leader).
+
+Coder: Katie Swiatek
+
+***
+The remaining team members will work together to code the homepage and subpages (depending on how many coders are in the group; each coder must complete one page) using HTML5 and CSS to create a website. They also MUST each use different forms of CSS Animation and Hover Image Effects on the page they complete.  Communication and the use of version control (via git/github) is required between coders to make sure there is no duplicate code or conflicts. Coders will create a responsive website coded mobile-first with min-width media queries.
