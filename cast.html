@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="http://fonts.cdnfonts.com/css/texas-tango-personal-use"
+      rel="stylesheet"
+    />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo_resized.png" width="318" height="308" />
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./cast.html">Cast</a>
+        <a href="./movie.html">Movie</a>
+      </nav>
+      <div id="mobile_nav">
+        <input type="checkbox" id="active" />
+        <label for="active" class="menu-btn"><span></span></label>
+        <label for="active" class="close"></label>
+        <div class="wrapper">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./cast.html">Cast</a></li>
+            <li><a href="./movie.html">Movie</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1>Cast</h1>
+      <section>
+        <img src="./images/swearengen.jpeg" />
+        <h2>Al Swearengen</h2>
+        <h3>Played by Ian McShane</h3>
+        <p>
+          The proprietor of The Gem Saloon was six months ahead of everyone else
+          in Deadwood, and he runs the town like a corrupt riverboat captain. He
+          knows every move that every person in town makes, anticipates problems
+          and eliminates them. His girls aren't exactly the class of the town,
+          but he controls the most successful bar and brothel in all of
+          Deadwood—bringing in $5,000 a day in 1876—and anybody that threatens
+          his sources of income may well end up fed to Mr. Wu's pigs.
+        </p>
+      </section>
+      <section>
+        <img src="./images/bullock.jpeg" />
+        <h2>Seth Bullock</h2>
+        <h3>Played by Timothy Olyphant</h3>
+        <p>
+          A native of Ontario and the son of a stern British sergeant-major,
+          Seth Bullock left home for good at the age of 16 and ended up in
+          Montana during the silver strikes of the 1860s. A natural leader, he
+          held a number of elected positions in his early 20s and was eventually
+          appointed Sheriff of Montana Territory.
+        </p>
+        <p>
+          Having heard of the big strikes in the Black Hills, Bullock has made
+          his way to Deadwood—not to prospect, but to open up a hardware
+          franchise with his business partner and friend Sol Star. Veterans of
+          frontier living, the two are undaunted by Deadwood’s lawless and
+          dangerous nature. But Bullock has put law-enforcement behind him, and
+          fully intends to make his way as a businessman.
+        </p>
+      </section>
+      <section>
+        <img src="./images/garret.jpeg" />
+        <h2>Alma Garret</h2>
+        <h3>Played by Molly Parker</h3>
+        <p>
+          Thirty and beautiful, Alma Garret married after the panic of 1873 to
+          salvage her father's strained finances. Preferring a fool's errand to
+          the circumstances of New York society, she came west with her husband,
+          Brom, to prospect, a woolly situation she softened with liberal use of
+          laudanum.
+        </p>
+      </section>
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.1.18/jquery.backstretch.min.js"
+      integrity="sha512-bXc1hnpHIf7iKIkKlTX4x0A0zwTiD/FjGTy7rxUERPZIkHgznXrN/2qipZuKp/M3MIcVIdjF4siFugoIc2fL0A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $.backstretch("./images/movie.jpg");
+    </script>
+  </body>
+</html>
