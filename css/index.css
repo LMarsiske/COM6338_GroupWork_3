@@ -88,6 +88,8 @@ video {
   vertical-align: baseline;
 }
 
+/*Custom CSS*/
+
 body {
   font-family: "Barlow", sans-serif;
   display: flex;
@@ -95,6 +97,7 @@ body {
   align-items: center;
 }
 
+/*logo and navigation bars*/
 header {
   width: 100%;
   max-width: 1200px;
@@ -112,6 +115,7 @@ header img {
   max-width: 318px;
   margin: 0 auto;
 }
+/*body content setup*/
 
 main {
   width: 80%;
@@ -123,6 +127,8 @@ main {
   background-color: #e6ede5;
   margin: 2.5% 0;
 }
+
+/* headers and titles */
 
 h1 {
   font-family: "Texas Tango BOLD PERSONAL USE", sans-serif;
@@ -140,6 +146,7 @@ h3 {
   font-size: 1.15em;
 }
 
+/* Content */
 main img {
   width: 100%;
   height: auto;
@@ -154,6 +161,7 @@ section {
   margin: 0 2.5%;
 }
 
+/* Media Queries */ 
 @media (min-width: 576px) {
 }
 @media (min-width: 768px) {
